@@ -15,6 +15,7 @@
     <module>cloud-api-commons</module>
     <module>cloud-eureka-server</module>
       <module>cloud-zookeeper-server</module>
+    <module>cloud-consul-server</module>
   </modules>
 
   <name>Maven</name>
