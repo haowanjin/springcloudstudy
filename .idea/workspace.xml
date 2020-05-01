@@ -42,6 +42,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -59,7 +63,11 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1ZTWHjEgGIJRxwwnQKU0JXnPdNg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -91,6 +99,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ZookeeperApplication">
+    <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consul-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ddup.springcloud.ConsulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server" />
       <extension name="coverage">
@@ -157,6 +172,7 @@
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
+      <item itemvalue="Spring Boot.ConsulApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -176,11 +192,6 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d86f2482" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d86f2482" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cb3df49a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -212,12 +223,44 @@
       <workItem from="1585367899004" duration="18000" />
       <workItem from="1585367926104" duration="3000" />
       <workItem from="1585384325354" duration="725000" />
-      <workItem from="1588333672940" duration="14287000" />
+      <workItem from="1588333672940" duration="16789000" />
     </task>
+    <task id="LOCAL-00001" summary="使用consul作为服务注册中心">
+      <created>1588354487965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588354487965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改pom">
+      <created>1588354719609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588354719609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="使用consul作为服务注册中心" />
+    <MESSAGE value="修改pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改pom" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.171.128" />

@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consul-server" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-zookeeper-server" />
-        <module name="cloud-eureka-server" />
         <module name="cloud-consumer-order" />
+        <module name="cloud-eureka-server" />
+        <module name="cloud-zookeeper-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
