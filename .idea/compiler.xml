@@ -10,8 +10,8 @@
         <module name="cloud-consul-server" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8001" />
-        <module name="cloud-consumer-order" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-consumer-order" />
         <module name="cloud-zookeeper-server" />
       </profile>
     </annotationProcessing>

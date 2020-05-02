@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be1bfdc-4d3c-4b55-a6a0-21fa7864b8cb" name="Default Changelist" comment="" />
+    <list default="true" id="0be1bfdc-4d3c-4b55-a6a0-21fa7864b8cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/loadbalancer/ILoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/loadbalancer/impl/MyLoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/config/OrderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/config/OrderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/config/OrderConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/config/OrderConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZookeeperApplication">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication">
     <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consul-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ddup.springcloud.ConsulApplication" />
@@ -168,35 +179,40 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConsulApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
       <item itemvalue="Spring Boot.ZookeeperApplication" />
-      <item itemvalue="Spring Boot.ConsulApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ZookeeperApplication" />
         <item itemvalue="Spring Boot.PaymentApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.ZookeeperApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.22882514" />
+        <option name="contentProportion" value="0.20969945" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d86f2482" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d86f2482" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5f769286" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b953502c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@332d87e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +239,8 @@
       <workItem from="1585367899004" duration="18000" />
       <workItem from="1585367926104" duration="3000" />
       <workItem from="1585384325354" duration="725000" />
-      <workItem from="1588333672940" duration="16789000" />
+      <workItem from="1588333672940" duration="17497000" />
+      <workItem from="1588397593437" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="使用consul作为服务注册中心">
       <created>1588354487965</created>
@@ -250,7 +267,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -261,6 +280,22 @@
     <MESSAGE value="使用consul作为服务注册中心" />
     <MESSAGE value="修改pom" />
     <option name="LAST_COMMIT_MESSAGE" value="修改pom" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository3.5/org/springframework/cloud/spring-cloud-loadbalancer/2.2.1.RELEASE/spring-cloud-loadbalancer-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/loadbalancer/core/RoundRobinLoadBalancer.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.171.128" />
