@@ -1,4 +1,4 @@
-package cn.ddup.quartz.config;
+package com.ddup.quartz.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;

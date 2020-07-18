@@ -1,4 +1,4 @@
-package cn.ddup.quartz.util;
+package com.ddup.quartz.util;
 
 import java.util.List;
 import java.util.Map;

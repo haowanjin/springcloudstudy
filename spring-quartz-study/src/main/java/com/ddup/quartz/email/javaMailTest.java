@@ -1,4 +1,4 @@
-package cn.ddup.quartz.email;
+package com.ddup.quartz.email;
 
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;

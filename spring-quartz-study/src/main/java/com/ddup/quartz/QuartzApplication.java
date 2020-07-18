@@ -1,4 +1,4 @@
-package cn.ddup.quartz;
+package com.ddup.quartz;
 /**
  * 建module
  * 改pom

@@ -1,6 +1,6 @@
-package cn.ddup.quartz.job;
+package com.ddup.quartz.job;
 
-import cn.ddup.quartz.util.StringUtils;
+import com.ddup.quartz.util.StringUtils;
 import org.quartz.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

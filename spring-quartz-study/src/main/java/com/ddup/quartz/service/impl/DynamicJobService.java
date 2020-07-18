@@ -1,9 +1,9 @@
-package cn.ddup.quartz.service.impl;
+package com.ddup.quartz.service.impl;
 
 
-import cn.ddup.quartz.dao.JobEntityRepository;
-import cn.ddup.quartz.job.DynamicJob;
-import cn.ddup.quartz.entity.JobEntity;
+import com.ddup.quartz.dao.JobEntityRepository;
+import com.ddup.quartz.job.DynamicJob;
+import com.ddup.quartz.entity.JobEntity;
 import org.quartz.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package cn.ddup.quartz.controller;
+package com.ddup.quartz.controller;
 
-import cn.ddup.quartz.service.impl.DynamicJobService;
-import cn.ddup.quartz.entity.JobEntity;
+import com.ddup.quartz.service.impl.DynamicJobService;
+import com.ddup.quartz.entity.JobEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
 import org.quartz.impl.matchers.GroupMatcher;

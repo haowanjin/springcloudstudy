@@ -1,4 +1,4 @@
-package cn.ddup.quartz.email;
+package com.ddup.quartz.email;
 
 /**
  * Created by IntelliJ IDEA.

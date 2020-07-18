@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0be1bfdc-4d3c-4b55-a6a0-21fa7864b8cb" name="Default Changelist" comment="">
+    <list default="true" id="0be1bfdc-4d3c-4b55-a6a0-21fa7864b8cb" name="Default Changelist" comment="实现自定义负载均衡">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -289,7 +289,7 @@
       <workItem from="1594637514652" duration="6815000" />
       <workItem from="1594888781493" duration="1555000" />
       <workItem from="1594978365866" duration="2596000" />
-      <workItem from="1595061162156" duration="1716000" />
+      <workItem from="1595061162156" duration="2233000" />
     </task>
     <task id="LOCAL-00001" summary="使用consul作为服务注册中心">
       <created>1588354487965</created>

@@ -1,4 +1,4 @@
-package cn.ddup.quartz.entity;
+package com.ddup.quartz.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
