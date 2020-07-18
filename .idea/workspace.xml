@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1bfdc-4d3c-4b55-a6a0-21fa7864b8cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/loadbalancer/ILoadBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/loadbalancer/impl/MyLoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/config/OrderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/config/OrderConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/config/OrderConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/config/OrderConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order/target/classes/com/ddup/springcloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -87,10 +83,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-quartz-study/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.side.proportion" value="0.25184095" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\springcloud2020\spring-quartz-study\src\main\resources" />
+      <recent name="E:\workspace\springcloud2020\spring-quartz-study\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -109,10 +112,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication">
-    <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.QuartzApplication">
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestMap" />
+      <module name="cloudalibaba-provider-payment9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="cloud-consul-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ddup.springcloud.ConsulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +138,7 @@
       <module name="cloud-eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ddup.springcloud.*" />
+          <option name="PATTERN" value="com.ddup.springcloud.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +150,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ddup.springcloud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ddup.springcloud.NacosApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ddup.springcloud.*" />
+          <option name="PATTERN" value="com.ddup.springcloud.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +180,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-quartz-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.QuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-payment8001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ddup.springcloud.*" />
+          <option name="PATTERN" value="com.ddup.springcloud.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +203,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-quartz-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ddup.quartz.QuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZookeeperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-zookeeper-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ddup.springcloud.*" />
+          <option name="PATTERN" value="com.ddup.springcloud.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +224,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestMap" />
+      <item itemvalue="Spring Boot.NacosApplication" />
       <item itemvalue="Spring Boot.ConsulApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication (1)" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
@@ -187,6 +236,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMap" />
         <item itemvalue="Spring Boot.PaymentApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -197,24 +247,9 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.20969945" />
+        <option name="contentProportion" value="0.17144808" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b953502c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d419ce4a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@332d87e3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -240,7 +275,21 @@
       <workItem from="1585367926104" duration="3000" />
       <workItem from="1585384325354" duration="725000" />
       <workItem from="1588333672940" duration="17497000" />
-      <workItem from="1588397593437" duration="4070000" />
+      <workItem from="1588397593437" duration="4931000" />
+      <workItem from="1588423866629" duration="801000" />
+      <workItem from="1588577128915" duration="13645000" />
+      <workItem from="1588651427310" duration="2704000" />
+      <workItem from="1588676959130" duration="8151000" />
+      <workItem from="1588854087898" duration="1439000" />
+      <workItem from="1588857126032" duration="1419000" />
+      <workItem from="1588933519914" duration="1254000" />
+      <workItem from="1589158317179" duration="2126000" />
+      <workItem from="1590909888067" duration="779000" />
+      <workItem from="1591359478455" duration="20000" />
+      <workItem from="1592030076683" duration="742000" />
+      <workItem from="1594637514652" duration="6815000" />
+      <workItem from="1594888781493" duration="1555000" />
+      <workItem from="1594978365866" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="使用consul作为服务注册中心">
       <created>1588354487965</created>
@@ -256,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588354719609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实现自定义负载均衡">
+      <created>1588406814995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588406814995</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,20 +335,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="使用consul作为服务注册中心" />
     <MESSAGE value="修改pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改pom" />
+    <MESSAGE value="实现自定义负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现自定义负载均衡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/maven/repository3.5/org/springframework/cloud/spring-cloud-loadbalancer/2.2.1.RELEASE/spring-cloud-loadbalancer-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/loadbalancer/core/RoundRobinLoadBalancer.java</url>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-loadbalancer/2.2.1.RELEASE/spring-cloud-loadbalancer-2.2.1.RELEASE-sources.jar!/org/springframework/cloud/loadbalancer/core/RoundRobinLoadBalancer.java</url>
           <line>113</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cloud-consumer-order/src/main/java/com/ddup/springcloud/controller/OrderController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/spring-quartz-study/src/main/java/cn/ddup/quartz/controller/JobController.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,15 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-consul-server" />
-        <module name="cloud-api-commons" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloud-eureka-server7001" />
         <module name="cloud-provider-payment8001" />
+        <module name="spring-quartz-study" />
         <module name="cloud-eureka-server" />
         <module name="cloud-consumer-order" />
         <module name="cloud-zookeeper-server" />
+        <module name="cloud-api-commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-nacos-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
