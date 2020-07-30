@@ -18,6 +18,7 @@
         <module>cloud-consul-server</module>
         <module>cloudalibaba-provider-payment9001</module>
         <module>spring-quartz-study</module>
+        <module>aes</module>
     </modules>
 
     <name>Maven</name>
