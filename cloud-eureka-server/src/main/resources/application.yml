@@ -10,6 +10,8 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com
+  server:
+    enable-self-preservation: true #默认是true
   client:
     fetch-registry: false
     register-with-eureka: false #不注册自己

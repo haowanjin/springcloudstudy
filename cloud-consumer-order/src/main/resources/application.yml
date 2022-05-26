@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8080
 
 spring:
   sleuth:
@@ -8,6 +8,20 @@ spring:
     enabled: false
   application:
     name: cloud-order-service
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  #cloud:
+  #  zookeeper:
+  #    connect-string: 192.168.171.127:2181
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver        #mysql驱动包
+    url: jdbc:mysql://192.168.171.127:3306/boot-seed?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
 
 eureka:
   instance:
