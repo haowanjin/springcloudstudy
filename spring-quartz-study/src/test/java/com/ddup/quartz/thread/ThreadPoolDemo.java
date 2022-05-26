@@ -16,5 +16,4 @@ public class ThreadPoolDemo {
         ExecutorService service = Executors.newSingleThreadExecutor();
         service.submit(() -> System.out.println("新年好!"));
     }
-
 }
