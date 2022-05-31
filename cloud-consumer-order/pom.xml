@@ -12,6 +12,13 @@
     <artifactId>cloud-consumer-order</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>4.9.3</version>
+        </dependency>
+
         <!--引入自己定义的api通用包，可以使用Payment支付Entity-->
          <dependency>
              <groupId>com.ddup.springcloud</groupId>
