@@ -54,6 +54,9 @@ public class OrderController {
 
     @GetMapping("transfer")
     public String transfer(@RequestParam("amount") BigDecimal amount) {
+        if (amount.longValue() < 0) {
+            return "转账金额必须大于0";
+        }
         String s = accountServiceImpl.transfer(amount);
         return "SUCCESS" + s;
     }
