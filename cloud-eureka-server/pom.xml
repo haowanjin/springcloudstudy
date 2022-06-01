@@ -21,6 +21,18 @@
                     <groupId>org.springframework.cloud</groupId>
                     <artifactId>spring-cloud-netflix-eureka-client</artifactId>
                 </exclusion>-->
+                <exclusion>
+                    <artifactId>HdrHistogram</artifactId>
+                    <groupId>org.hdrhistogram</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>woodstox-core</artifactId>
+                    <groupId>com.fasterxml.woodstox</groupId>
+                </exclusion>
             </exclusions>
         </dependency>
         <!--引入自己定义的api通用包，可以使用payment支付Entity-->
