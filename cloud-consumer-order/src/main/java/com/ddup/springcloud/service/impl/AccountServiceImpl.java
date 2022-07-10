@@ -23,8 +23,11 @@ public class AccountServiceImpl {
     @GlobalTransactional
     public String transfer(BigDecimal amount) {
         log.info("==============>{}", RootContext.getXID());
-        accountService.transferFrom(amount);
-        String res = accountService.transferTo(amount);
-        return res;
+        String res = accountService.transferFrom(amount);
+        String res1 = accountService.transferTo(amount);
+        if (amount.longValue() == 4) {
+            throw new RuntimeException("汇款数额为4，消费端异常");
+        }
+        return res + "\r\n" + res1;
     }
 }

@@ -29,13 +29,13 @@ public class SysAccountServiceImpl implements SysAccountService {
     @Transactional(propagation = Propagation.REQUIRES_NEW)
     public String transferFrom(Long accountId, BigDecimal amount) {
         log.info("=======transferFrom=======>{}", RootContext.getXID());
-        SysAccount accountCopy = new SysAccount();
-        accountCopy.setId(accountId);
-        accountCopy.setAmount(amount);
-        int res = accountDao.updateAmount(accountCopy);
+        SysAccount account = new SysAccount();
+        account.setId(accountId);
+        account.setAmount(amount);
+        int res = accountDao.updateAmount(account);
         if (amount.longValue() == 5) {
             throw new RuntimeException("出账失败测试");
         }
-        return "出账成功更新 " + accountId + " 账户金额";
+        return "出账成功更新: " + accountId + ", 出账金额: " + amount.longValue() + ", 账户余额: " + accountDao.getAmount(accountId);
     }
 }

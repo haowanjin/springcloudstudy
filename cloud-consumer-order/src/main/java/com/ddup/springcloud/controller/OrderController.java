@@ -58,7 +58,7 @@ public class OrderController {
             return "转账金额必须大于0";
         }
         String s = accountServiceImpl.transfer(amount);
-        return "SUCCESS" + s;
+        return "SUCCESS \r\n" + s;
     }
 
     @GetMapping("zkTest")

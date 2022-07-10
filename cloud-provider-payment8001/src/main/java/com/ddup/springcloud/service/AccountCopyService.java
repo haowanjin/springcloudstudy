@@ -1,5 +1,7 @@
 package com.ddup.springcloud.service;
 
+import org.apache.ibatis.annotations.Select;
+
 import java.math.BigDecimal;
 
 /**

@@ -34,6 +34,6 @@ public class AccountCopyServiceImpl implements AccountCopyService {
         if (amount.longValue() == 3) {
             throw new RuntimeException("入账失败测试");
         }
-        return "入账成功更新 " + accountId + " 账户金额";
+        return "入账成功更新 " + accountId + " 账户金额 " + amount.longValue() + ", 账户余额: " + accountCopyDao.getAmount(accountId);
     }
 }
